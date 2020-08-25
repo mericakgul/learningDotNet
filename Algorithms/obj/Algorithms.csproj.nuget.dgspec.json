@@ -1,0 +1,61 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/mericakgul/Documents/C#Workspace/FirstAssignment/Algorithms/Algorithms.csproj": {}
+  },
+  "projects": {
+    "/Users/mericakgul/Documents/C#Workspace/FirstAssignment/Algorithms/Algorithms.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/mericakgul/Documents/C#Workspace/FirstAssignment/Algorithms/Algorithms.csproj",
+        "projectName": "Algorithms",
+        "projectPath": "/Users/mericakgul/Documents/C#Workspace/FirstAssignment/Algorithms/Algorithms.csproj",
+        "packagesPath": "/Users/mericakgul/.nuget/packages/",
+        "outputPath": "/Users/mericakgul/Documents/C#Workspace/FirstAssignment/Algorithms/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/mericakgul/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

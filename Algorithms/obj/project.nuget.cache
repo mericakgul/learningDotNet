@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "tjaEhUhodzjWLsqrD7yqZvYCDdPGDmQ56X8an3WEaGF1TriXYxw9y9CFZV7fPGIVPIRTeXbM54TOe9neN9zC8Q==",
+  "success": true,
+  "projectFilePath": "/Users/mericakgul/Documents/C#Workspace/FirstAssignment/Algorithms/Algorithms.csproj",
+  "expectedPackageFiles": [
+    "/Users/mericakgul/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/Users/mericakgul/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

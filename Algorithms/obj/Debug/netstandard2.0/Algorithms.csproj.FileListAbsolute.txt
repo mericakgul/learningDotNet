@@ -1,0 +1,9 @@
+/Users/mericakgul/Documents/C#Workspace/FirstAssignment/Algorithms/bin/Debug/netstandard2.0/Algorithms.deps.json
+/Users/mericakgul/Documents/C#Workspace/FirstAssignment/Algorithms/bin/Debug/netstandard2.0/Algorithms.dll
+/Users/mericakgul/Documents/C#Workspace/FirstAssignment/Algorithms/bin/Debug/netstandard2.0/Algorithms.pdb
+/Users/mericakgul/Documents/C#Workspace/FirstAssignment/Algorithms/obj/Debug/netstandard2.0/Algorithms.csprojAssemblyReference.cache
+/Users/mericakgul/Documents/C#Workspace/FirstAssignment/Algorithms/obj/Debug/netstandard2.0/Algorithms.AssemblyInfoInputs.cache
+/Users/mericakgul/Documents/C#Workspace/FirstAssignment/Algorithms/obj/Debug/netstandard2.0/Algorithms.AssemblyInfo.cs
+/Users/mericakgul/Documents/C#Workspace/FirstAssignment/Algorithms/obj/Debug/netstandard2.0/Algorithms.csproj.CoreCompileInputs.cache
+/Users/mericakgul/Documents/C#Workspace/FirstAssignment/Algorithms/obj/Debug/netstandard2.0/Algorithms.dll
+/Users/mericakgul/Documents/C#Workspace/FirstAssignment/Algorithms/obj/Debug/netstandard2.0/Algorithms.pdb
