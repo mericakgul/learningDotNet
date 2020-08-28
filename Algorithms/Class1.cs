@@ -5,66 +5,78 @@ namespace Algorithms
 {
     public class Algorithm
     {
-        public List <int> createListOfPrimeNumbers(int N){
+        public List<int> CreateListOfPrimeNumbers(int maxNumber)
+        {
+            List<int> primeNumbers = new List<int>();
 
-            List <int> primeNumbers = new List<int> ();
-
-            if (N <= 1){
-                return primeNumbers;
-            }
-
-            else if(N==2){
-                primeNumbers.Add(2);
-                return primeNumbers;
-            }
-
-            else{
-                primeNumbers.Add(2);
-                for(int num = 3 ; num <= N ; num++){
-                    Boolean control = true;
-                    int i = 2;
-
-                    do{ 
-                        if (num%i == 0){
-                            control = false;
-                            break;
-                        }
-                        i++;
-                    }while(i <= num/2);
-
-                    if(control == true){
-                        primeNumbers.Add(num);
-                    }
+            for (int currentNumber = 2; currentNumber <= maxNumber; currentNumber++)
+            {
+                if (IsPrime(currentNumber))
+                {
+                    primeNumbers.Add(currentNumber);
                 }
+            }
+
             return primeNumbers;
-            }
         }
-    
-        public List <int> createListOfFibonacci(int N){
 
-             List <int> fibonacciSequence = new List<int> ();
-             int n1 = 0;
-             int n2 = 1;
-             int n3;
-            
-            if(N < 0){
-                return fibonacciSequence;
-            }
+        private bool IsPrime(int currentNumber)
+        {
+            if (currentNumber <= 1)
+                return false;
 
-            else if(N == 0){
-                fibonacciSequence.Add(n1);
-                return fibonacciSequence;
-            }
+            if (currentNumber == 2)
+                return true;
 
-            else{
-                fibonacciSequence.Add(n1);
-                fibonacciSequence.Add(n2);
-                while(n1+n2 <= N){
-                    n3 = n1 + n2;
-                    fibonacciSequence.Add(n3);
-                    n1 = n2;
-                    n2 = n3;
+            int divider = 2;
+
+            do
+            {
+                if (currentNumber % divider == 0)
+                {
+                    return false;
                 }
+                divider++;
+            } while (divider <= currentNumber / 2);
+
+            return true;
+        }
+
+        public List<int> CreateListOfFibonacci(int maxNumber)
+        {
+            if (maxNumber > 10_000)
+            {
+                throw new ArgumentOutOfRangeException();
+            }
+
+            List<int> fibonacciSequence = new List<int>();
+            
+            if (maxNumber < 0)
+            {
+                return fibonacciSequence;
+            }
+            else if (maxNumber == 0)
+            {
+                fibonacciSequence.Add(0);
+                return fibonacciSequence;
+            }
+            else
+            {
+                int previousNumber = 0;
+                int currentNumber = 1;
+                int nextNumber = previousNumber + currentNumber;
+
+                fibonacciSequence.Add(previousNumber);
+                fibonacciSequence.Add(currentNumber);
+
+                while (nextNumber <= maxNumber)
+                {
+                    fibonacciSequence.Add(nextNumber);
+                    previousNumber = currentNumber;
+                    currentNumber = nextNumber;
+                    nextNumber = previousNumber + currentNumber;
+                }
+
                 return fibonacciSequence;
             }
         }
